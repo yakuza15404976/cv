@@ -78,6 +78,13 @@ a:hover {
   margin: auto;
 }
 
+@media (max-width: 500px) {
+  .intro {
+width: 300px;
+text-align: left;
+  }
+}
+
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
@@ -92,7 +99,7 @@ a:hover {
 .top-cloud {
   position: absolute;
   right: 250px;
-  top: 40px;
+  top: -20px;
 }
 
 .hand-down{
@@ -124,6 +131,14 @@ a:hover {
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+
+.image{
+  display: none;
+}
+
+a:hover + .image {
+  display: block;
 }
 
 .btn {
