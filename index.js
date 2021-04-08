@@ -11,3 +11,11 @@ function getDateTime() {
          document.getElementById("display").innerHTML = "Good Evening";
     }
 }
+
+function hover(element) {
+  element.setAttribute('src', 'images/tiktok.png');
+}
+
+function unhover(element) {
+  element.setAttribute('src', 'images/default2.png');
+}
