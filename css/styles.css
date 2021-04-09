@@ -43,10 +43,10 @@ a{
   text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
   color: #EAF6F6;
 
-}
+} */
 
 
 
@@ -157,11 +157,32 @@ a:hover + .image {
   color: rgb( 0, 132, 180);
 }
 .footer-link3:hover{
-  /* background-color: "images/tiktok.png"; */
-
-
+  animation-name: spincolor;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+     /* outline:inherit 1px #FC5185;
+     transition: outline 0.6s linear; */
+     /* margin: 0.5em; */
+    /* animation-timing-function: ease-in-out; */
+     /* color: white; */
 
 }
+@keyframes spincolor {
+  25% {
+    color: RGB(1, 1, 1);
+  }
+  50% {
+  color: RGB(105, 201, 208);
+  }
+75% {
+  color: RGB(238, 29, 82);
+  }
+  100% {
+  color: RGB(255, 255, 255);
+  }
+
+}
+
 .footer-link4:hover{
   color: rgb(59, 91, 152);
   background-color: white;
