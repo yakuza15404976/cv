@@ -137,7 +137,7 @@ a {
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   display: none;
   padding: 1%;
-  
+
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
@@ -156,6 +156,9 @@ a:hover+.image {
   color: rgb(59, 91, 152);
 }
 
+.space{
+  padding:  1.5%;
+}
 .footer-link2:hover {
   color: rgb(0, 132, 180);
 }
