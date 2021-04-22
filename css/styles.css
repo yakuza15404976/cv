@@ -114,6 +114,7 @@ a {
   width: 40%;
 }
 
+
 .bottom-cloud {
   position: absolute;
   left: 200px;
@@ -132,7 +133,10 @@ a {
   margin-left: 30px;
 }
 
-
+.wei{
+  border-radius: 50%;
+  width: 10%;
+}
 .image {
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   display: none;
