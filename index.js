@@ -3,13 +3,11 @@ function getDateTime() {
     var hour    = now.getHours();
    if(hour < 12){
       document.getElementById("display").innerHTML = "Good Morning";
-      document.getElementById("display").innerHTML = "Good Evening";
       document.getElementById("morning").src = "images/morning.png";
       document.getElementById("daynight").style.backgroundImage = "url('https://www.transparenttextures.com/patterns/cubes.png')";
    }
    else if (hour >= 12 && hour <= 17){
      document.getElementById("display").innerHTML = "Good Afternoon";
-     document.getElementById("display").innerHTML = "Good Evening";
      document.getElementById("morning").src = "images/afternoon.png";
      document.getElementById("daynight").style.backgroundImage = "url('https://www.transparenttextures.com/patterns/cubes.png')";
    }
@@ -25,12 +23,10 @@ function getDateTime() {
 // document.getElementById("daynight").style.textAlign ="center";
  // document.getElementById("daynight").style.backgroundSize = "100%";
 
-
-// image.width = 100%;
     }
     else if (hour >= 20 && hour <= 24) {
       document.getElementById("display").innerHTML = "It's kind of late to be checking on my resume. Good Night.";
-      document.getElementById("morning").src = "images/night.png";
+    document.getElementById("morning").src = "images/night.png";
       document.getElementById("daynight").style.backgroundImage = "url('https://www.transparenttextures.com/patterns/cubes.png')";
     }
 }
