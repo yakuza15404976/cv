@@ -1,3 +1,8 @@
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
 function getDateTime() {
     var now     = new Date();
     var hour    = now.getHours();
