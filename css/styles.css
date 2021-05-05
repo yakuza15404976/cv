@@ -95,6 +95,15 @@ a {
   font-size: 0.75rem;
   padding: 20px 0;
 }
+.dark-mode {
+  background-color: black;
+  color:  white;
+}
+
+.dark-mode .image {
+  background-color: white;
+  color:  black;
+}
 
 .top-cloud {
   position: absolute;
