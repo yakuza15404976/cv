@@ -1,7 +1,11 @@
+
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
+
 }
+
+
 
 function getDateTime() {
     var now     = new Date();
@@ -35,6 +39,8 @@ function getDateTime() {
       document.getElementById("daynight").style.backgroundImage = "url('https://www.transparenttextures.com/patterns/cubes.png')";
     }
 }
+
+
 
 function hover(element) {
   element.setAttribute('src', 'images/tiktok.png');
