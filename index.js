@@ -1,8 +1,12 @@
 
 function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-
+  var element = document.body;
+     var btn = document.getElementById("modeSwitcher");
+     element.classList.toggle("dark-mode");
+     if(element.classList.contains("dark-mode"))
+      btn.innerHTML= "Light Mode";
+     else
+      btn.innerHTML= "Dark Mode";
 }
 
 
